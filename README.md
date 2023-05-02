@@ -1,6 +1,6 @@
 # Welcome to TrueFoundry FrontEnd Assignment
 
-Below is the [link](test) to the live project. 
+Below is the [link](https://truefoundry-frontend-prakhar.netlify.app) to the live project. 
 **LINK**
 Click on this to open the website
 
