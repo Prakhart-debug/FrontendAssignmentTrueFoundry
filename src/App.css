@@ -1,0 +1,31 @@
+.App {
+  height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row-reverse;
+}
+.json_editor {
+  /* border: 2px solid black; */
+  flex-basis: 25%;
+  flex-shrink: 0;
+}
+.form_app {
+  border: 2px solid black;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  flex-shrink: 2;
+  flex-basis: 75%;
+  overflow-y: scroll;
+  height: 100%;
+}
+@media screen and (max-width: 850px) {
+  .App {
+    display: block;
+  }
+  .json_editor {
+    max-height: 800px;
+  }
+  .form_app {
+    height: fit-content;
+    overflow-y: auto;
+  }
+}
